@@ -29,12 +29,12 @@
 .list__item__task__label {
 	width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .list__item__task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .add__container {
   display: flex;
@@ -95,7 +95,7 @@
 .add__container__item {
 	width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 /* Task list */
 .list__item {
@@ -116,7 +116,7 @@
   width: 226px;
 }
 .list__item > .input {
-  width: 226px
+  width: 226px;
 }
 .list__item__button.list__item__button__delete .list__item__button__delete__img {
   height: 2em;
@@ -128,16 +128,16 @@
 }
 /* Completed */
 .list__complited .label {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 /* Edit Task */
 .list .list__item .input {
-  display: none
+  display: none;
 }
 .list .list__item.list__item__edit .input {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 .list .list__item.list__item__edit .label {
   display: none;
