@@ -16,10 +16,10 @@
 .description .description__detailes {
   font-family: fantasy, cursive;
 }
-
 @media (max-width:768px) {
-  .description { text-align: center;
-}
+  .description { 
+		text-align: center;
+  }
 }
 .block {
   display: block;
@@ -97,7 +97,6 @@
   display: inline-block;
   flex-grow: 1
 }
-
 /* Task list */
 .list__item {
   overflow: hidden;
@@ -116,7 +115,7 @@
   font-size: 18px;
   width: 226px;
 }
-.list__item >    .input {
+.list__item > .input {
   width: 226px
 }
 .list__item__button.list__item__button__delete .list__item__button__delete__img {
@@ -127,23 +126,19 @@
 .list__item__button.list__item__button__delete .list__item__button__delete__img:hover {
   transform: rotateZ(0);
 }
-
 /* Completed */
 .list__complited .label {
   text-decoration: line-through
   color: #888;
 }
-
 /* Edit Task */
 .list .list__item .input {
   display:none
 }
-
 .list .list__item.list__item__edit .input {
   display:inline-block;
   width:224px
 }
-
 .list .list__item.list__item__edit .label {
   display:none;
 }
