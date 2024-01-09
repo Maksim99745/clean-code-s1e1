@@ -126,12 +126,12 @@
 .list__item > .input {
   width: 226px;
 }
-.list__item__button.list__item__button__delete .list__item__button__delete__img {
+.list__item__button.list__item__button_delete .list__item__button_delete_img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-.list__item__button.list__item__button__delete .list__item__button__delete__img:hover {
+.list__item__button.list__item__button_delete .list__item__button_delete_img:hover {
   transform: rotateZ(0);
 }
 
